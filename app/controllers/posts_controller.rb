@@ -4,7 +4,7 @@ class PostsController < ApplicationController
   protect_from_forgery
 
   def index
-    @posts = 'I am the index action' 
+    @posts = 'I am the index action'
   end
 
   def show
@@ -30,5 +30,4 @@ class PostsController < ApplicationController
   def destroy
     @posts = 'Here us destroy your post'
   end
-
 end
