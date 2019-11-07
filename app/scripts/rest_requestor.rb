@@ -31,10 +31,9 @@ url = 'http://localhost:3000/users/123'
 
 puts RestClient.delete url
 
-
 # request for posts
 
-url =  'http://localhost:3000/posts'
+url = 'http://localhost:3000/posts'
 puts RestClient.get url
 
 url = 'http://localhost:3000/posts/122'
