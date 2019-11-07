@@ -8,6 +8,14 @@ AllCops:
     - "Gemfile.lock"
     - "test/*"
     - "node_modules/*"
+    - "app/channel/*"
+    - "app/helpers/*"
+    - "app/jobs/*"
+    - "app/mailers/*"
+    - "app/models/*"
+    - "config/environment.rb"
+    - "config/boot.rb"
+    - "config/application.rb"
   DisplayCopNames: true
 
 Metrics/LineLength:
