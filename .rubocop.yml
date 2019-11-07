@@ -16,6 +16,7 @@ AllCops:
     - "config/environment.rb"
     - "config/boot.rb"
     - "config/application.rb"
+    - "config/puma.rb"
   DisplayCopNames: true
 
 Metrics/LineLength:

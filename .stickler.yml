@@ -20,3 +20,4 @@ files:
     - "config/environment.rb"
     - "config/boot.rb"
     - "config/application.rb"
+    - "config/puma.rb"
