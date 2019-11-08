@@ -5982,3 +5982,26 @@ Can't verify CSRF token authenticity.
 Completed 200 OK in 18ms (Views: 15.7ms | ActiveRecord: 0.0ms | Allocations: 6100)
 
 
+Started GET "/" for ::1 at 2019-11-07 20:30:26 -0500
+  [1m[35m (9.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/yochiwarez/.rvm/gems/ruby-2.6.3/gems/railties-6.0.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/yochiwarez/.rvm/gems/ruby-2.6.3/gems/railties-6.0.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 34.0ms | Allocations: 478)
+Completed 200 OK in 91ms (Views: 61.5ms | ActiveRecord: 0.0ms | Allocations: 5257)
+
+
+Started GET "/users" for ::1 at 2019-11-07 20:30:33 -0500
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 311)
+Completed 200 OK in 1354ms (Views: 1351.7ms | ActiveRecord: 0.0ms | Allocations: 1313554)
+
+
+Started GET "/users/1" for ::1 at 2019-11-07 20:30:41 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 0.4ms | Allocations: 133)
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.0ms | Allocations: 5738)
+
+
